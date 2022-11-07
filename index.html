@@ -5,38 +5,55 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Шнайдер-Консалтинг Портфолио</title>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- <script>
+		document.createElement('aside');
+		document.createElement('about-us');
+	 </script> -->
 </head>
 
 <body>
   <header class="header">
-		<div class="logo">
-			<img src="img/logo.jpg" alt="logo" class="logo-img">
-		</div>
-		<p class="sale-ad">
-			Распродажа до 15.02.16
-		</p>
-		<div class="link">
-			<a class="link-phone" href="tel:+73432525252">+7 (343) 252-52-52</a>
-			<a class="link-phone" href="tel:+73432525252">+7 (343) 252-52-52</a>
+		<div class="container  header__container">
+			<div class="logo">
+				<img src="img/logo.jpg" alt="logo" class="logo-img">
+			</div>
+			<p class="sale-ad">
+				Распродажа до 15.02.16!
+			</p>
+			<div class="link">
+				<a class="link-phone" href="tel:+73432525252">+7 (343) 252-52-52</a>
+				<a class="link-phone" href="tel:+73432525252">+7 (343) 252-52-52</a>
+			</div>
 		</div>
 	</header>
+
 	<main>
 		<section class="nav">
-			<li class="nav-item">
-				<a class="nav-item-link" href="#about-us">Главная</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-item-link" href="#about-us">Каталог</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-item-link" href="#about-us">Доставка и оплата</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-item-link" href="#about-us">Прайс-лист</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-item-link" href="#about-us">Контакты</a>
-			</li>
+			<div class="container  nav__container">
+				<li class="nav-item">
+					<a class="nav-item-link" href="#about-us">Главная</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-item-link" href="#about-us">Каталог</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-item-link" href="#about-us">Доставка и оплата</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-item-link" href="#about-us">Прайс-лист</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-item-link" href="#about-us">Контакты</a>
+				</li>
+			</div>
 		</section>
 
 		<section class="head">
@@ -44,107 +61,120 @@
 		</section>
 
 		<section class="about-us">
-			<h1 class="title">
-				Компания "Шнайдер Консалт"
-			</h1>
-			<p class="content">
-				Мы эксперты в запуске интернет-магазиновтоваров для дома, сторительства и ремонта. Совместный опыт нашей командыв развитии и продвижениипроектов в сфере эдектронной торговли более 15 лет.
-			</p>
-			<p class="content">
-				Мы сохдали надежную технологию, которая позволяет быстро и уверенно выводить интернет-магазины на продажи и самоокупаемость. Если мы беремся за проект, значит уверены в достижении бизнес результатов для наших клиентов.
-			</p>
-			<h2 class="what-we-do">
-				Чем мы занимаемся?
-			</h2>
-			<div class="block">
-				<h4 class="what-we-do-title">
-					Только товары для дома, строительства и ремонта.
-				</h4>
-				<p class="what-we-do-content">
-					Нельзя одинаково хорошо разбираться во всех отраслях рынка. Поэтому мы работаем на тех отраслях рынка, на котором имеем большой опыт и разбираемся лучше всего. И это гарантирует результат нашим клиентам.
-				</p>
-			</div>
-			<div class="block">
-				<h4 class="what-we-do-title">
-					Строим комплексный маркетинг и продажи.
-				</h4>
-				<p class="what-we-do-content">
-					Мы не делаем просто сайты. Не занимаемся просто продвижением. Это не принесет результаты. Только комплексный маркетинг и система продаж могут принести вам доходы и прибыль.
-				</p>
-			</div>
-		</section>
+			<div class="container  about-us__container">				
+				<aside class="aside">
+					<h3 class="aside-title">
+						Новости
+					</h3>
+					<a href="http://#" class="aside-link">
+						<p class="aside-link-date">
+							14 сентября 2015 г.
+						</p>
+						<p class="aside-link-content">
+							Акция на входные двери Фалько!
+						</p>
+					</a>
+					<a href="http://#" class="aside-link">
+						<p class="aside-link-date">
+							14 сентября 2015 г.
+						</p>
+						<p class="aside-link-content">
+							Установка межкомнатных дверей в подарок при покупке 3-х полотен!
+						</p>
+					</a>
+					<a href="http://#" class="aside-link">
+						<p class="aside-link-date">
+							14 сентября 2015 г.
+						</p>
+						<p class="aside-link-content">
+							Новинка! Термо двери Форт!
+						</p>
+					</a>
+					<a href="http://#" class="aside-link">
+						<p class="aside-link-date">
+							14 сентября 2015 г.
+						</p>
+						<p class="aside-link-content">
+							Установка межкомнатных дверей в подарок при покупке 3-х полотен!
+						</p>
+					</a>
+					<a href="http://#" class="aside-link">
+						<p class="aside-link-date">
+							14 сентября 2015 г.
+						</p>
+						<p class="aside-link-content">
+							Новинка! Термо двери Форт!
+						</p>
+					</a>
+					<a href="http://#" class="aside-link_sale">Архив акций</a>
+				</aside>
 
-		<aside>
-			<h3 class="aside-title">
-				Новости
-			</h3>
-			<a href="http://#" class="aside-link">
-				<p class="aside-link-date">
-					14 сентября 2015 г.
-				</p>
-				<p class="aside-link-content">
-					Акция на входные двери Фалько!
-				</p>
-			</a>
-			<a href="http://#" class="aside-link">
-				<p class="aside-link-date">
-					14 сентября 2015 г.
-				</p>
-				<p class="aside-link-content">
-					Установка межкомнатных дверей в подарок при покупке 3-х полотен!
-				</p>
-			</a>
-			<a href="http://#" class="aside-link">
-				<p class="aside-link-date">
-					14 сентября 2015 г.
-				</p>
-				<p class="aside-link-content">
-					Новинка! Термо двери Форт!
-				</p>
-			</a>
-			<a href="http://#" class="aside-link">
-				<p class="aside-link-date">
-					14 сентября 2015 г.
-				</p>
-				<p class="aside-link-content">
-					Установка межкомнатных дверей в подарок при покупке 3-х полотен!
-				</p>
-			</a>
-			<a href="http://#" class="aside-link">
-				<p class="aside-link-date">
-					14 сентября 2015 г.
-				</p>
-				<p class="aside-link-content">
-					Новинка! Термо двери Форт!
-				</p>
-			</a>
-		</aside>
+				<div class="about-us__block">
+					<h1 class="title">
+						Компания "Шнайдер Консалт"
+					</h1>
+					<p class="content  about-us__content">
+						Мы эксперты в запуске интернет-магазиновтоваров для дома, сторительства и ремонта. Совместный опыт нашей командыв развитии и продвижениипроектов в сфере эдектронной торговли более 15 лет.
+					</p>
+					<p class="content  about-us__content">
+						Мы сохдали надежную технологию, которая позволяет быстро и уверенно выводить интернет-магазины на продажи и самоокупаемость. Если мы беремся за проект, значит уверены в достижении бизнес результатов для наших клиентов.
+					</p>
+				</div>
+
+				<div class="what-we-do__block">
+					<h2 class="what-we-do__title">
+						Чем мы занимаемся?
+					</h2>
+					<div class="what-we-do__flex">
+						<div class="block">
+							<h4 class="what-we-do__subtitle">
+								Только товары для дома, строительства и ремонта.
+							</h4>
+							<p class="content  what-we-do__content">
+								Нельзя одинаково хорошо разбираться во всех отраслях рынка. Поэтому мы работаем на тех отраслях рынка, на котором имеем большой опыт и разбираемся лучше всего. И это гарантирует результат нашим клиентам.
+							</p>
+						</div>
+						<div class="block">
+							<h4 class="what-we-do__subtitle">
+								Строим комплексный маркетинг и продажи.
+							</h4>
+							<p class="content  what-we-do__content">
+								Мы не делаем просто сайты. Не занимаемся просто продвижением. Это не принесет результаты. Только комплексный маркетинг и система продаж могут принести вам доходы и прибыль.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</section>
 	</main>
 
 	<footer class="footer">
-		<div class="footer-block">
-			&copy; 2012-2016 ЗАО "Компания"
-			<a href="mailto:info@mane.ru">info@mane.ru</a>
-		</div>
-		<div class="footer-block  nav  footer__nav">
-			<li class="nav-item">
-				<a class="nav-item-link" href="#about-us">Главная</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-item-link" href="#about-us">Каталог</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-item-link" href="#about-us">Доставка и оплата</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-item-link" href="#about-us">Прайс-лист</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-item-link" href="#about-us">Контакты</a>
-			</li>
-		</div>
-		<div class="footer-block">
-			<a href="http://#">Разработка сайта</a> компания "Шнайдер Консалт"
+		<div class="container  footer__container">
+			<div class="footer-block">
+				&copy; 2012-2016 ЗАО "Компания" <br>
+				<a href="mailto:info@mane.ru">info@mane.ru</a>
+			</div>
+			<div class="footer-block  nav  footer__nav">
+				<li class="footer__nav-item">
+					<a class="nav-item-link" href="#about-us">Главная</a>
+				</li>
+				<li class="footer__nav-item">
+					<a class="nav-item-link" href="#about-us">Каталог</a>
+				</li>
+				<li class="footer__nav-item">
+					<a class="nav-item-link" href="#about-us">Доставка и оплата</a>
+				</li>
+				<li class="footer__nav-item">
+					<a class="nav-item-link" href="#about-us">Прайс-лист</a>
+				</li>
+				<li class="footer__nav-item">
+					<a class="nav-item-link" href="#about-us">Контакты</a>
+				</li>
+			</div>
+			<div class="footer-block  footer-block__contact">
+				<a href="http://#" >Разработка сайта</a> - <br> компания "Шнайдер Консалт"
+			</div>
 		</div>
 	</footer>
 </body>
